@@ -92,7 +92,7 @@ class Alice:
         import asyncio
         global g_ctx
         g_ctx = {}
-        g_ctx['json'] = ctx.copy()
+        g_ctx['json'] = ctx
         g_ctx['data'] = {
             'us': ctx['state']['session'].get('d', {}),
             'ws': ctx['state'].get('user', {}),
