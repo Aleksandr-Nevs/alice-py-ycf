@@ -1,6 +1,6 @@
 # alice-py-ycf 
 
-> v 0.2.1
+> v 0.2.3
 >
 > Python >= v 3.8
 > 
@@ -22,7 +22,7 @@ _Важные ссылки:_
 
 Пример файла requirements.txt для Yandex Cloud Function
 ```python
-alice-py-ycf==0.2.1
+alice-py-ycf==0.2.3
 ```
 
 
@@ -92,8 +92,7 @@ def handler(event, context):
     def any_f(ctx):
         ctx['data']['scene'] = ''
         return {
-            "txt": 'И тебе привет из красной комнаты',
-            'tts': 'И тебе прив+ет из кр+асной комнаты'
+            "txt": 'Возвращаемся в основную комнату'
         }
     
     # выполняется за пределами установленного таймаута
