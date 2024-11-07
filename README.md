@@ -20,7 +20,7 @@ _Важные ссылки:_
 - [Размещение навыка в Yandex Cloud](https://yandex.ru/dev/dialogs/alice/doc/ru/deploy-ycloud-function)
 ---
 
-файл requistest.txt для Yandex Function
+Пример файла requirements.txt для Yandex Cloud Function
 ```python
 alice-py-ycf==0.2
 ```
