@@ -20,6 +20,14 @@ _Важные ссылки:_
 - [Размещение навыка в Yandex Cloud](https://yandex.ru/dev/dialogs/alice/doc/ru/deploy-ycloud-function)
 ---
 
+файл requistest.txt для Yandex Function
+```python
+alice-py-ycf==0.2
+```
+
+
+
+
 Пример возможностей.<br>Файл index.py с функцией handler для Yandex Function Cloud:
 ```python
 def handler(event, context):
