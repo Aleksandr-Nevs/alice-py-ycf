@@ -1,6 +1,6 @@
 # alice-py-ycf 
 
-> v 0.2
+> v 0.2.1
 >
 > Python >= v 3.8
 > 
@@ -22,7 +22,7 @@ _Важные ссылки:_
 
 Пример файла requirements.txt для Yandex Cloud Function
 ```python
-alice-py-ycf==0.2
+alice-py-ycf==0.2.1
 ```
 
 
