@@ -82,7 +82,7 @@ class Alice:
             result_response['session_state']['s'] = g_ctx['data']['scene']
         if custom_response.get('card', None):
             result_response["response"]['card'] = custom_response['card']
-        if custom_response.get('text', None):
+        if custom_response.get('txt', None):
             result_response["response"]['text'], result_response["response"]['tts'] = self.__get_txt_tts(custom_response)
         if custom_response.get('buttons', None):
             result_response["response"]['buttons'] = custom_response['buttons']
