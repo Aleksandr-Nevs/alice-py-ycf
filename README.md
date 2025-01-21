@@ -5,21 +5,25 @@
 > Python >= v 3.8
 > 
 
-Фреймворк для разработки навыков Яндекс Алисы на Python
+Фреймворк для разработки навыков Яндекс Алисы на Python  
 
-> Адаптирован для работы с Yandex Cloud Function
- 
+Предназначен в первую очередь для работы с Yandex Cloud Function
+
+ **Особенности:**  
 - Минималистичен
 - Нет внешних зависимостей
 - Достаточно базового уровня Python
 
 ----
-_Важные ссылки:_
+**Важные ссылки:**
 - [Управление навыками Алисы](https://dialogs.yandex.ru/developer)
 - [Документация разработчика Алисы](https://yandex.ru/dev/dialogs/alice/doc/ru/)
 - [Размещение навыка в Yandex Cloud](https://yandex.ru/dev/dialogs/alice/doc/ru/deploy-ycloud-function)
 ---
-
+Для работы фреймворка нужно включить опцию   
+"использовать хранилище данных в навыке"
+![опция использования хранилище данных в навыке](https://github.com/Aleksandr-Nevs/alice-py-ycf/blob/main/2025-01-21_19-28-32.png)
+----
 Пример файла requirements.txt для Yandex Cloud Function
 ```python
 alice-py-ycf==0.2.3
